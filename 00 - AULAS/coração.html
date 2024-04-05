@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desenhar um Coração</title>
+</head>
+<body>
+    <canvas id="canvas" width="40" height="40"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        // Desenha o coração
+        ctx.beginPath();
+        ctx.moveTo(20, 20); // Ponto inicial
+        ctx.bezierCurveTo(0,1, 60, 80, 60, 40, 40); // Curva superior
+        ctx.bezierCurveTo(0,1, 20, 80, 20, 40, 40); // Curva inferior
+        ctx.closePath();
+        ctx.fillStyle = 'red';
+        ctx.fill();
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
+    </script>
+</body>
+</html>
