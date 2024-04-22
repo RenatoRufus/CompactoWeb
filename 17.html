@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos classes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .layout {
+            margin: 50px;
+            text-align: center;
+            background-color: rgb(30, 30, 30);
+            padding: 50px;
+
+        }
+
+        .link {
+            color: rgb(10, 193, 218);
+            text-decoration: none;
+        }
+
+        .link:visited {
+            color: rgb(255, 0, 0);
+        }
+
+        .link:hover {
+            color: rgb(229, 225, 0);
+
+        }
+
+        .link:active {
+            color: blue;
+        }
+
+        h1 {
+            margin: 50px;
+        }
+
+        h1::first-line {
+            color: red;
+        }
+
+        h2 {
+            margin: 20px;
+        }
+
+        h2::first-letter {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+        <h1>Deseja visitar o site google</h1>
+        <a href="https://www.google.com" class="link">Google site</a>
+    </div>
+
+    <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Quasi, officia?
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Vero, asperiores.
+    </h1>
+    <h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Quasi, officia?
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Vero, asperiores.
+    </h2>
+
+
+</body>
+
+</html>
