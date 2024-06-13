@@ -17,12 +17,16 @@
             background-color: green;
             color: white;
         }
+        table{
+            width: 50%;
+        }
     </style>
 </head>
 
 <body>
     <table>
-        <thead></thead>
+        <caption>Título da tabela</caption>
+        <thead>
         <tr>
             <th>Coluna 1 </th> <!--Cabeçalho th-->
             <th>Coluna 2 </th>
@@ -46,6 +50,14 @@
             <th>Rodapé 1</th>
             <td>Rodapé 2</td>
             <td>Rodapé 3</td>
+        </tr> <br>
+        <tr>
+            <tr>
+            <td colspan="3"> Célula única</td>
+            </tr>
+            <th>1 - linha 2</th>
+            <td>2 - linha 2</td>
+            <td>3 - linha 2</td>
         </tr>
         </tfoot>
     </table>
