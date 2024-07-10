@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <style>
+    .form-container{
+        width: 60%;
+        margin: auto;
+    }
+    .form-group{
+        margin-bottom: 10px;
+    }
+   </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+         <h3>Formulário</h3>
+        
+          <div class="form-group">
+            <input type="range" name="campo_intervalo" min="0" max="1000" step="3" oninput="mostrar(this.value)">
+            <p id="valor_range"></p>
+          </div>
+          
+          <hr>
+
+         <div class="form-group">
+            <input type="submit" value="Enviar">
+         </div>
+         
+         <script>
+            function mostrar(value){
+                document.getElementById("valor_range").innerHTML = value
+            }
+         </script>
+        </form>
+    </div>
+    
+</body>
+</html>
