@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <style>
+    .form-container{
+        width: 60%;
+        margin: auto;
+    }
+    .form-group{
+        margin-bottom: 10px;
+    }
+   </style>
+</head>
+<body>
+    <div class="form-container">
+       
+
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+         <h3>Formulário</h3>
+         <div class="form-group">
+            <label>Selecione uma opção:</label>
+            <select name="selecao" id="" required >  <!--multiple    []array na selecao-->
+                <optgroup label="Paises">
+                    <option value=""></option>
+                    <option value="pt">Portugal</option>
+                    <option value="br">Brasil</option>
+                    <!-- <option value="ao" selected>Angola</option>-->
+                    <option value="ao">Angola</option>
+                    <option value="mc">Moçambique</option>
+                    <option value="cv">Cabo Verde</option>
+                </optgroup>
+                <optgroup label="Outros paises">
+                    <option value="fr">França</option>
+                    <option value="de">Alemanha</option>
+                    <option value="es">Espanha</option>
+
+                </optgroup>
+                
+            </select>
+         </div> 
+         <!--option*4  tecla tab-->
+         <!-- O segundo valor estará selecionado inicialmente 
+<select name="select">
+    <option value="valor1">Valor 1</option>
+    <option value="valor2" selected>Valor 2</option>
+    <option value="valor3">Valor 3</option>
+  </select>
+  -->
+        
+
+         <div class="form-group">
+            <input type="submit" value="Enviar">
+         </div>
+             
+        </form>
+    </div>
+    
+</body>
+</html>
