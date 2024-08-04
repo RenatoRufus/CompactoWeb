@@ -1,0 +1,26 @@
+li, dt, dd{
+   line-height: 24px; 
+}
+
+.lista-d{
+    list-style-type: square;
+}
+
+.lista-d2{
+    list-style-type: lower-roman;
+}
+
+.lista-d3{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(/CompactoWeb/img/);
+}
+
+.list-background{
+    background-image: url(/CompactoWeb/img/2.png);
+    background-position: 0 8px;
+    background-size: .5rem .5rem;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+
+}
