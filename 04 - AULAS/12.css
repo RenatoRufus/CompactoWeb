@@ -1,0 +1,37 @@
+div{
+    
+    margin: 10px;
+    height: 200px;
+    border: 1px solid black ;
+    }
+
+.espaco-1{
+/* background-color: yellow; */
+background: linear-gradient(90deg, red, yellow);
+
+}
+
+.espaco-2{
+
+    background-image: url(/CompactoWeb/img/360_F_752103634_RF64EGGawVjSNDLcoRYqmEvuscsVi0EO.jpg);
+    background-size: auto;
+}
+
+.espaco-3{
+background-image: url(/CompactoWeb/img/4000-200x200.webp);
+background-repeat: repeat-x;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
