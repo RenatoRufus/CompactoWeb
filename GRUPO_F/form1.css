@@ -54,6 +54,19 @@ input[type="button"]{
 }
 
 
+input[type="submit"]:hover{
+    background: #405d5f;
+    color: #fff;
+
+}
+
+input[type="button"]:hover{
+    background: #405d5f;
+    color: #fff;
+
+}
+
+
 
 
 
