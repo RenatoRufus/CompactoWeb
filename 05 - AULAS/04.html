@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-flow: row nowrap;
+            height: 300px;
+
+        }
+
+        div{
+            padding: 20px;
+            width: 25%;
+        }
+
+        .child1{
+            background-color: #cad5d6;
+            flex-shrink: 10;
+            align-self: flex-end;
+        }
+
+        .child2{
+            background-color: #b4c1c2;
+        }
+
+        .child3{
+            background-color: #9facad;
+        }
+
+        .child4{
+            background-color: #849192;
+        }
+
+        .child5{
+            background-color: #849192;
+            order: 1;
+            flex-grow: 1;
+            align-self: flex-end;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<section class="container">
+    <div class="child1">
+        <h1>A</h1>
+    </div>
+    <div class="child2">
+        <h1>B</h1>
+    </div>
+    <div class="child3">
+        <h1>C</h1>
+    </div>
+    <div class="child4">
+        <h1>D</h1>
+    </div>
+</section>
+
+<section class="container">
+    <div class="child1">
+        <h1>A</h1>
+    </div>
+    <div class="child2">
+        <h1>B</h1>
+    </div>
+    <div class="child5">
+        <h1>C</h1>
+    </div>
+    <div class="child4">
+        <h1>D</h1>
+    </div>
+</section>
+    
+</body>
+</html>
