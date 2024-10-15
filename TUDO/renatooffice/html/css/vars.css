@@ -1,7 +1,0 @@
-:root {
-	--white-color: #fff;
-	--gray-color: #aeb4a6;
-	--green-color: #0f4f53;
-	--index: calc(1vw + 1vh);
-	--transition: var(--index);
-}
